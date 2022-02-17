@@ -1,1 +1,8 @@
-<h1>{{title}}</h1>
+<header>
+    <h1>{{title}}</h1>
+    <app-button color="{{showAddTasl ? 'red': 'green'}}"
+    text="{{showAddTasl ? 'Close Task': 'Add Task'}}"
+    (btnClick)="toogleAddTask()"
+    *ngIf="hasRoute('/')"></app-button>
+</header>
+

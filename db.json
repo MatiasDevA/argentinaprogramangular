@@ -1,0 +1,18 @@
+{
+  "task": [
+    {
+      "text": "revisar tarea",
+      "date": "2022-02-17",
+      "day": "tarde",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "hola mundo",
+      "date": "2552-06-05",
+      "day": "mañana",
+      "reminder": true,
+      "id": 2
+    }
+  ]
+}
